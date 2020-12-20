@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/wcx/gitProject/MyMuduo/muduo/CopyAble.h
+
+/home/wcx/gitProject/MyMuduo/muduo/Logger.cpp
+Logger.h
+/home/wcx/gitProject/MyMuduo/muduo/Logger.h
+TimeStamp.h
+/home/wcx/gitProject/MyMuduo/muduo/TimeStamp.h
+iostream
+-
+
+/home/wcx/gitProject/MyMuduo/muduo/Logger.h
+NonCopyAble.h
+/home/wcx/gitProject/MyMuduo/muduo/NonCopyAble.h
+stdio.h
+-
+string
+-
+iostream
+-
+
+/home/wcx/gitProject/MyMuduo/muduo/NonCopyAble.h
+
+/home/wcx/gitProject/MyMuduo/muduo/TimeStamp.h
+CopyAble.h
+/home/wcx/gitProject/MyMuduo/muduo/CopyAble.h
+stdint.h
+-
+string
+-
+time.h
+-
+
+/home/wcx/gitProject/MyMuduo/muduo/test.cpp
+Logger.h
+/home/wcx/gitProject/MyMuduo/muduo/Logger.h
+iostream
+-
+
