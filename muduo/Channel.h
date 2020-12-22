@@ -1,3 +1,5 @@
+#pragma once
+
 #include "NonCopyAble.h"
 #include "TimeStamp.h"
 #include <string>

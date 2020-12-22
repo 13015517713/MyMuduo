@@ -4,13 +4,19 @@
 CMakeFiles/muduo.dir/Channel.cpp.o: ../Channel.cpp
 CMakeFiles/muduo.dir/Channel.cpp.o: ../Channel.h
 CMakeFiles/muduo.dir/Channel.cpp.o: ../CopyAble.h
+CMakeFiles/muduo.dir/Channel.cpp.o: ../CurrentThread.h
 CMakeFiles/muduo.dir/Channel.cpp.o: ../EventLoop.h
 CMakeFiles/muduo.dir/Channel.cpp.o: ../Logger.h
 CMakeFiles/muduo.dir/Channel.cpp.o: ../NonCopyAble.h
+CMakeFiles/muduo.dir/Channel.cpp.o: ../Poller.h
 CMakeFiles/muduo.dir/Channel.cpp.o: ../TimeStamp.h
+
+CMakeFiles/muduo.dir/CurrentThread.cpp.o: ../CurrentThread.cpp
+CMakeFiles/muduo.dir/CurrentThread.cpp.o: ../CurrentThread.h
 
 CMakeFiles/muduo.dir/DefaultPoll.cpp.o: ../Channel.h
 CMakeFiles/muduo.dir/DefaultPoll.cpp.o: ../CopyAble.h
+CMakeFiles/muduo.dir/DefaultPoll.cpp.o: ../CurrentThread.h
 CMakeFiles/muduo.dir/DefaultPoll.cpp.o: ../DefaultPoll.cpp
 CMakeFiles/muduo.dir/DefaultPoll.cpp.o: ../EpollPoller.h
 CMakeFiles/muduo.dir/DefaultPoll.cpp.o: ../EventLoop.h
@@ -21,6 +27,7 @@ CMakeFiles/muduo.dir/DefaultPoll.cpp.o: ../TimeStamp.h
 
 CMakeFiles/muduo.dir/EpollPoller.cpp.o: ../Channel.h
 CMakeFiles/muduo.dir/EpollPoller.cpp.o: ../CopyAble.h
+CMakeFiles/muduo.dir/EpollPoller.cpp.o: ../CurrentThread.h
 CMakeFiles/muduo.dir/EpollPoller.cpp.o: ../EpollPoller.cpp
 CMakeFiles/muduo.dir/EpollPoller.cpp.o: ../EpollPoller.h
 CMakeFiles/muduo.dir/EpollPoller.cpp.o: ../EventLoop.h
@@ -29,7 +36,15 @@ CMakeFiles/muduo.dir/EpollPoller.cpp.o: ../NonCopyAble.h
 CMakeFiles/muduo.dir/EpollPoller.cpp.o: ../Poller.h
 CMakeFiles/muduo.dir/EpollPoller.cpp.o: ../TimeStamp.h
 
+CMakeFiles/muduo.dir/EventLoop.cpp.o: ../Channel.h
+CMakeFiles/muduo.dir/EventLoop.cpp.o: ../CopyAble.h
+CMakeFiles/muduo.dir/EventLoop.cpp.o: ../CurrentThread.h
 CMakeFiles/muduo.dir/EventLoop.cpp.o: ../EventLoop.cpp
+CMakeFiles/muduo.dir/EventLoop.cpp.o: ../EventLoop.h
+CMakeFiles/muduo.dir/EventLoop.cpp.o: ../Logger.h
+CMakeFiles/muduo.dir/EventLoop.cpp.o: ../NonCopyAble.h
+CMakeFiles/muduo.dir/EventLoop.cpp.o: ../Poller.h
+CMakeFiles/muduo.dir/EventLoop.cpp.o: ../TimeStamp.h
 
 CMakeFiles/muduo.dir/InetAddress.cpp.o: ../CopyAble.h
 CMakeFiles/muduo.dir/InetAddress.cpp.o: ../InetAddress.cpp
@@ -43,7 +58,6 @@ CMakeFiles/muduo.dir/Logger.cpp.o: ../TimeStamp.h
 
 CMakeFiles/muduo.dir/Poller.cpp.o: ../Channel.h
 CMakeFiles/muduo.dir/Poller.cpp.o: ../CopyAble.h
-CMakeFiles/muduo.dir/Poller.cpp.o: ../EventLoop.h
 CMakeFiles/muduo.dir/Poller.cpp.o: ../NonCopyAble.h
 CMakeFiles/muduo.dir/Poller.cpp.o: ../Poller.cpp
 CMakeFiles/muduo.dir/Poller.cpp.o: ../Poller.h

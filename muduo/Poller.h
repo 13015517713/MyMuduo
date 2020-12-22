@@ -1,14 +1,12 @@
 #pragma once
-
 // 多路时间分发器，核心的I/O复用，去封装Epoll
 
 #include "NonCopyAble.h"
 #include "Channel.h"
-#include "EventLoop.h"
 #include "TimeStamp.h"
 #include <vector>
 #include <unordered_map>
-
+class EventLoop;
 class Poller : noncopyable{
 public:
     using ChannelList = std::vector<Channel*>;

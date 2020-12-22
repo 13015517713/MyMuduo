@@ -8,6 +8,7 @@ FILE(REMOVE_RECURSE
   "CMakeFiles/muduo.dir/Poller.cpp.o"
   "CMakeFiles/muduo.dir/DefaultPoll.cpp.o"
   "CMakeFiles/muduo.dir/EpollPoller.cpp.o"
+  "CMakeFiles/muduo.dir/CurrentThread.cpp.o"
   "../lib/libmuduo.pdb"
   "../lib/libmuduo.so"
 )

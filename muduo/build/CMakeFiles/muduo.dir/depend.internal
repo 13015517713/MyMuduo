@@ -5,13 +5,19 @@ CMakeFiles/muduo.dir/Channel.cpp.o
  /home/wcx/gitProject/MyMuduo/muduo/Channel.cpp
  /home/wcx/gitProject/MyMuduo/muduo/Channel.h
  /home/wcx/gitProject/MyMuduo/muduo/CopyAble.h
+ /home/wcx/gitProject/MyMuduo/muduo/CurrentThread.h
  /home/wcx/gitProject/MyMuduo/muduo/EventLoop.h
  /home/wcx/gitProject/MyMuduo/muduo/Logger.h
  /home/wcx/gitProject/MyMuduo/muduo/NonCopyAble.h
+ /home/wcx/gitProject/MyMuduo/muduo/Poller.h
  /home/wcx/gitProject/MyMuduo/muduo/TimeStamp.h
+CMakeFiles/muduo.dir/CurrentThread.cpp.o
+ /home/wcx/gitProject/MyMuduo/muduo/CurrentThread.cpp
+ /home/wcx/gitProject/MyMuduo/muduo/CurrentThread.h
 CMakeFiles/muduo.dir/DefaultPoll.cpp.o
  /home/wcx/gitProject/MyMuduo/muduo/Channel.h
  /home/wcx/gitProject/MyMuduo/muduo/CopyAble.h
+ /home/wcx/gitProject/MyMuduo/muduo/CurrentThread.h
  /home/wcx/gitProject/MyMuduo/muduo/DefaultPoll.cpp
  /home/wcx/gitProject/MyMuduo/muduo/EpollPoller.h
  /home/wcx/gitProject/MyMuduo/muduo/EventLoop.h
@@ -22,6 +28,7 @@ CMakeFiles/muduo.dir/DefaultPoll.cpp.o
 CMakeFiles/muduo.dir/EpollPoller.cpp.o
  /home/wcx/gitProject/MyMuduo/muduo/Channel.h
  /home/wcx/gitProject/MyMuduo/muduo/CopyAble.h
+ /home/wcx/gitProject/MyMuduo/muduo/CurrentThread.h
  /home/wcx/gitProject/MyMuduo/muduo/EpollPoller.cpp
  /home/wcx/gitProject/MyMuduo/muduo/EpollPoller.h
  /home/wcx/gitProject/MyMuduo/muduo/EventLoop.h
@@ -30,7 +37,15 @@ CMakeFiles/muduo.dir/EpollPoller.cpp.o
  /home/wcx/gitProject/MyMuduo/muduo/Poller.h
  /home/wcx/gitProject/MyMuduo/muduo/TimeStamp.h
 CMakeFiles/muduo.dir/EventLoop.cpp.o
+ /home/wcx/gitProject/MyMuduo/muduo/Channel.h
+ /home/wcx/gitProject/MyMuduo/muduo/CopyAble.h
+ /home/wcx/gitProject/MyMuduo/muduo/CurrentThread.h
  /home/wcx/gitProject/MyMuduo/muduo/EventLoop.cpp
+ /home/wcx/gitProject/MyMuduo/muduo/EventLoop.h
+ /home/wcx/gitProject/MyMuduo/muduo/Logger.h
+ /home/wcx/gitProject/MyMuduo/muduo/NonCopyAble.h
+ /home/wcx/gitProject/MyMuduo/muduo/Poller.h
+ /home/wcx/gitProject/MyMuduo/muduo/TimeStamp.h
 CMakeFiles/muduo.dir/InetAddress.cpp.o
  /home/wcx/gitProject/MyMuduo/muduo/CopyAble.h
  /home/wcx/gitProject/MyMuduo/muduo/InetAddress.cpp
@@ -44,7 +59,6 @@ CMakeFiles/muduo.dir/Logger.cpp.o
 CMakeFiles/muduo.dir/Poller.cpp.o
  /home/wcx/gitProject/MyMuduo/muduo/Channel.h
  /home/wcx/gitProject/MyMuduo/muduo/CopyAble.h
- /home/wcx/gitProject/MyMuduo/muduo/EventLoop.h
  /home/wcx/gitProject/MyMuduo/muduo/NonCopyAble.h
  /home/wcx/gitProject/MyMuduo/muduo/Poller.cpp
  /home/wcx/gitProject/MyMuduo/muduo/Poller.h

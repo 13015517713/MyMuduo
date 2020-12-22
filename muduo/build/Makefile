@@ -138,6 +138,30 @@ Channel.cpp.s:
 	$(MAKE) -f CMakeFiles/muduo.dir/build.make CMakeFiles/muduo.dir/Channel.cpp.s
 .PHONY : Channel.cpp.s
 
+CurrentThread.o: CurrentThread.cpp.o
+.PHONY : CurrentThread.o
+
+# target to build an object file
+CurrentThread.cpp.o:
+	$(MAKE) -f CMakeFiles/muduo.dir/build.make CMakeFiles/muduo.dir/CurrentThread.cpp.o
+.PHONY : CurrentThread.cpp.o
+
+CurrentThread.i: CurrentThread.cpp.i
+.PHONY : CurrentThread.i
+
+# target to preprocess a source file
+CurrentThread.cpp.i:
+	$(MAKE) -f CMakeFiles/muduo.dir/build.make CMakeFiles/muduo.dir/CurrentThread.cpp.i
+.PHONY : CurrentThread.cpp.i
+
+CurrentThread.s: CurrentThread.cpp.s
+.PHONY : CurrentThread.s
+
+# target to generate assembly for a file
+CurrentThread.cpp.s:
+	$(MAKE) -f CMakeFiles/muduo.dir/build.make CMakeFiles/muduo.dir/CurrentThread.cpp.s
+.PHONY : CurrentThread.cpp.s
+
 DefaultPoll.o: DefaultPoll.cpp.o
 .PHONY : DefaultPoll.o
 
@@ -342,6 +366,9 @@ help:
 	@echo "... Channel.o"
 	@echo "... Channel.i"
 	@echo "... Channel.s"
+	@echo "... CurrentThread.o"
+	@echo "... CurrentThread.i"
+	@echo "... CurrentThread.s"
 	@echo "... DefaultPoll.o"
 	@echo "... DefaultPoll.i"
 	@echo "... DefaultPoll.s"
