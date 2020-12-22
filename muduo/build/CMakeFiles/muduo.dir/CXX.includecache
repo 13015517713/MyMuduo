@@ -32,7 +32,17 @@ memory
 
 /home/wcx/gitProject/MyMuduo/muduo/CopyAble.h
 
+/home/wcx/gitProject/MyMuduo/muduo/CurrentThread.cpp
+CurrentThread.h
 /home/wcx/gitProject/MyMuduo/muduo/CurrentThread.h
+unistd.h
+/home/wcx/gitProject/MyMuduo/muduo/unistd.h
+sys/syscall.h
+/home/wcx/gitProject/MyMuduo/muduo/sys/syscall.h
+
+/home/wcx/gitProject/MyMuduo/muduo/CurrentThread.h
+sys/syscall.h
+/home/wcx/gitProject/MyMuduo/muduo/sys/syscall.h
 
 /home/wcx/gitProject/MyMuduo/muduo/DefaultPoll.cpp
 Poller.h
@@ -123,10 +133,6 @@ Poller.h
 /home/wcx/gitProject/MyMuduo/muduo/Poller.h
 EventLoop.h
 /home/wcx/gitProject/MyMuduo/muduo/EventLoop.h
-
-/home/wcx/gitProject/MyMuduo/muduo/Poller.cpp
-Poller.h
-/home/wcx/gitProject/MyMuduo/muduo/Poller.h
 
 /home/wcx/gitProject/MyMuduo/muduo/Poller.h
 NonCopyAble.h
