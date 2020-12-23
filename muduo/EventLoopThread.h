@@ -6,12 +6,14 @@
 */
 
 #include "Thread.h"
+#include "CopyAble.h"
 // #include "EventLoop.h"
 #include <semaphore.h>
 #include <functional>
 
 class EventLoop;
-class EventLoopThread{  // 包装那两个  作为栈对象
+// 应该是可以拷贝的吧
+class EventLoopThread : copyable{  // 包装那两个  作为栈对象
 public:
     using ThreadInitCallback = std::function<void(EventLoop*)>;
 
