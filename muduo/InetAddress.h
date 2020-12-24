@@ -22,6 +22,9 @@ public:
     std::string toIp();
     std::string toIpPort();
     uint16_t toPort();
+
+    const sockaddr_in *getSockAddr() const { return &_addr; }
+    void setSockAddr(const sockaddr_in &addr) { _addr = addr; }
     
 private:
     // 目前只要ipv4就行了
