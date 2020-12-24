@@ -12,6 +12,7 @@
 // 然后又有一些转换函数去发送接收等
 class InetAddress : copyable{
 public:
+    InetAddress(){}
     explicit InetAddress(uint16_t port, const std::string ip = "0.0.0.0"){
         bzero(&_addr, sizeof(_addr));
         _addr.sin_family = AF_INET;
