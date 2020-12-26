@@ -1,8 +1,8 @@
 #include "EventLoopThread.h"
 #include "EventLoop.h"
 
-EventLoopThread::EventLoopThread(const ThreadInitCallback &cb = ThreadInitCallback(),
-            const std::string &name = std::string())
+EventLoopThread::EventLoopThread(const ThreadInitCallback &cb,
+            const std::string &name)
             :_threadInitCallback(cb),
             _loop(NULL),
             _thread(std::bind(&EventLoopThread::threadFunc,this),name),
@@ -26,7 +26,6 @@ void EventLoopThread::threadFunc(){
     if (_threadInitCallback){
         _threadInitCallback(&loop);
     }
-    _thread.start();
     _loop = &loop;
     sem_post(&_sem);
     loop.loop();

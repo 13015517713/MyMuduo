@@ -12,7 +12,7 @@ int SocketOp::createNonblockingOrDie(sa_family_t family){
 
 
 
-void SocketOp::close(int sockfd){
+void SocketOp::closeOrDie(int sockfd){
     int stat = ::close(sockfd);
     if (stat<0){
         LogERROR("close sockfd errors.");

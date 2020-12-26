@@ -4,5 +4,5 @@
 
 namespace SocketOp{ 
     int createNonblockingOrDie(sa_family_t family);
-    int close(int sockfd);
+    void closeOrDie(int sockfd);
 }

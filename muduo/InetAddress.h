@@ -1,3 +1,5 @@
+#pragma once
+
 // 对sockaddr_in的封装 ip地址会用这个表示  
 // 当然有不同的表示方式，不同函数比如bind,accept接收地址的方式也不是sockaddr，可以强转，这算是兼容以前的函数了
 // 用sockaddr_in吧，认准其一即可     条条大路通罗马

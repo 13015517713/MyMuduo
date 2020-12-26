@@ -1,4 +1,4 @@
-#include "Accept.h"
+#include "Acceptor.h"
 #include "EventLoop.h"
 #include "SocketOp.h"
 #include "InetAddress.h"
@@ -18,7 +18,7 @@ Acceptor::Acceptor(EventLoop *loop, const InetAddress &listenAddr, bool reusePor
     _acceptSock.setKeepAlive(true);
     _acceptSock.setTcpNoDelay(true); // 打开nagle算法
     _acceptChannel.setReadCallBack(
-                    std::bind(&Acceptor::handleRead,this);
+                    std::bind(&Acceptor::handleRead,this));
 
 }
 
@@ -48,13 +48,13 @@ void Acceptor::handleRead(){  // 读到一个文件描述符
             _newCpnnCallback(sockfd, peerAddr);
         }
         else{  // 感觉没有新连接回调也没事 如果我不需要知道是谁发的    但是不符合工业用的
-            SocketOp::close(sockfd);
+            SocketOp::closeOrDie(sockfd);
         }
     }
     else{  // 没有反应就不会去accept  去accept就是发生了可读事件
         if (errno == EMFILE){ //文件描述符用满了
             ::close(_idleFd);
-            _idleFd = ::accept(&_idleFd, NULL, NULL);
+            _idleFd = ::accept(_idleFd, NULL, NULL);
             ::close(_idleFd);
             _idleFd = ::open("/dev/null", O_RDONLY | O_CLOEXEC);
         }

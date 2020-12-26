@@ -32,12 +32,13 @@ void Thread::start(){
     sem_t sem;
     sem_init(&sem, false, 0);
     // 执行一个函数传这么多参数吗
-    thread(new thread([&](){
-        _threadId = CurrentThread::tid();
-        sem_post(&sem); // sem被共享吗？
-        _func();
-    }));
-    thread(new thread(_func,this));
+    _thread = std::shared_ptr<std::thread>
+        (new thread([&](){
+            _threadId = CurrentThread::tid();
+            sem_post(&sem); // sem被共享吗？
+            _func();
+        }));
+    // thread(new thread(_func,this));
     // 这点没有办法考虑_threadId被初始化没
     sem_wait(&sem);
 }

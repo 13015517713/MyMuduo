@@ -8,7 +8,7 @@
 class Thread : noncopyable{
 public:
     using ThreadFunc = std::function<void()>;
-    Thread(ThreadFunc, const string& name = string());
+    Thread(ThreadFunc, const std::string& name = std::string());
     ~Thread();
 
     void start();
@@ -17,7 +17,7 @@ public:
     bool started() const { return _started; }
     int tid() const { return _threadId; }
     // 为什么返回常引用呢？
-    string name() const { return _name; }
+    std::string name() const { return _name; }
 
     static int numCreated() { return _numCreated; } 
 private:
@@ -28,8 +28,8 @@ private:
     int _threadId;
     ThreadFunc _func;
     // 用unique_ptr看行不行
-    std::unique_ptr<thread> _thread;
-    string _name;
-    static atomic<int> _numCreated;
+    std::shared_ptr<std::thread> _thread;
+    std::string _name;
+    static std::atomic<int> _numCreated;
 
 };

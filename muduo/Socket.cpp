@@ -45,7 +45,7 @@ bool Socket::getTcpInfoToString(char *buf, int len) const{
 
  // 绑定Ip地址
 void Socket::bindAddress(const InetAddress &addr){
-    int stat = ::bind(_sockfd, (sockaddr*)addr.getSockAddr(), sizeof sockaddr);
+    int stat = ::bind(_sockfd, (sockaddr*)addr.getSockAddr(), sizeof(sockaddr));
     if(stat<0){
         LogFATAL("Socket bindAddress error.");
     }
@@ -70,7 +70,7 @@ int Socket::accept(InetAddress *peeraddr){
     if ( fd >= 0){
         peeraddr->setSockAddr(addr);
         int stat = ::fcntl(fd, F_SETFL, ::fcntl(fd, F_GETFL, 0)|O_NONBLOCK);
-        int stat = ::fcntl(fd, F_SETFD, ::fcntl(fd, F_GETFD, 0)|FD_CLOEXEC);
+        stat = ::fcntl(fd, F_SETFD, ::fcntl(fd, F_GETFD, 0)|FD_CLOEXEC);
     }
     peeraddr->setSockAddr(addr);
     return fd;
