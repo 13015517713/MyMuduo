@@ -1,3 +1,5 @@
+#pragma once
+
 #include "Logger.h"
 #include "NonCopyAble.h"
 #include "InetAddress.h"

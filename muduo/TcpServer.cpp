@@ -4,7 +4,7 @@
 #include "EventLoopThread.h"
 #include "EventLoopThreadPool.h"
 #include <functional>
-#include <assert>
+#include <assert.h>
 
 namespace place = std::placeholders;
 
@@ -24,7 +24,7 @@ namespace defaultFunc{
 TcpServer::TcpServer(EventLoop *loop,
             const InetAddress &listenAddr,
             const std::string &name,
-            PortOption option = TagReusePort)
+            PortOption option)
     :_loop(loop),
     _ipPort(listenAddr.toIpPort()),  // 调用const对象的函数，对应函数必须对应const，标识下
     _name(name),

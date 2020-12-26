@@ -8,7 +8,7 @@
 
 using namespace std;
 
-string InetAddress::toIp(){
+string InetAddress::toIp() const{
     char buf[50];
     ::inet_ntop(AF_INET, &_addr.sin_addr, buf, sizeof(buf));
     return buf;
