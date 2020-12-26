@@ -1,5 +1,3 @@
-##ignore this file##
-/target/ 
-build
-muduo/build
-muduo/test
+build/
+muduo/build/
+muduo/test/
