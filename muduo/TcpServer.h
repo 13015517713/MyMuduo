@@ -6,6 +6,7 @@
 #include <memory.h>
 #include <atomic>
 #include <map>
+#include <functional>
 
 /*
     展现给用户的TcpServer
@@ -15,8 +16,8 @@
 class EventLoop;
 class Buffer;
 class EventLoopThreadPool;
-class TcpServer : noncopyable{
-public:
+
+namespace{
     using TcpConnectionPtr = std::shared_ptr<TcpConnection>;
     using ConnCallback = std::function<void (const TcpConnectionPtr &)>; // 新连接
     using CloseConnCallback = std::function<void (const TcpConnectionPtr &)>; // 连接关闭回调
@@ -27,7 +28,11 @@ public:
     using MsgCallback = std::function<void (const TcpConnectionPtr&,
                                 Buffer*,
                                 TimeStamp)>;
+}
 
+
+class TcpServer : noncopyable{
+public:
     enum PortOption{
         TagNoReusePort,
         TagReusePort
@@ -64,6 +69,7 @@ private:
     const std::string _ipPort;
     const std::string _name;
     std::unique_ptr<Acceptor> _acceptor;
+    
     std::shared_ptr<EventLoopThreadPool> _threadPool;  
     ConnCallback _connCallback;
     MsgCallback _msgCallback;

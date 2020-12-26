@@ -22,8 +22,8 @@ public:
         _addr.sin_port = port;
     }
     explicit InetAddress(const sockaddr_in &addr):_addr(addr){}
-    std::string toIp();
-    std::string toIpPort();
+    std::string toIp() const;
+    std::string toIpPort() const;
     uint16_t toPort();
 
     const sockaddr_in *getSockAddr() const { return &_addr; }

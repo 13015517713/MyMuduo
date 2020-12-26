@@ -28,7 +28,7 @@ void EventLoopThread::threadFunc(){
     }
     _loop = &loop;
     sem_post(&_sem);
-    loop.loop();
+    loop.loop();  // 整个线程的核心就是让Loop跑起来
     {
         std::lock_guard<std::mutex> tmutex(_mutex);
         _loop = NULL;

@@ -13,7 +13,7 @@ string InetAddress::toIp(){
     ::inet_ntop(AF_INET, &_addr.sin_addr, buf, sizeof(buf));
     return buf;
 }
-string InetAddress::toIpPort(){
+string InetAddress::toIpPort() const{
     char buf[50];
     ::inet_ntop(AF_INET, &_addr.sin_addr, buf, sizeof(buf));
     sprintf(buf + strlen(buf), "%u", _addr.sin_port);
