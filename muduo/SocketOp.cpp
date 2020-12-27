@@ -18,3 +18,7 @@ void SocketOp::closeOrDie(int sockfd){
         LogERROR("close sockfd errors.");
     }
 }
+
+ssize_t SocketOp::readv(int fd, const iovec* iov, int cnt){
+    return ::readv(fd, iov, cnt);
+}
