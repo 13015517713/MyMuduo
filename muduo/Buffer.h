@@ -1,5 +1,6 @@
 #pragma once
 
+#include "CopyAble.h"
 #include <stdint.h>
 #include <vector>
 #include <assert.h>
@@ -30,7 +31,7 @@
     这个缓冲区的优点在于：用vector去存储char，用了iovec包含多个缓冲区，用了readindex、writeindex去刻画读写过程，可及时利用上读过信息的空间。
     我觉得可以增加一个读取了但是不删除数据的函数，之后再进行添加吧，没有遇到对应需求。
 */
-class Buffer{
+class Buffer : copyable{
 public:
     using sizeT = std::size_t;
     static const sizeT kCheapPrepend = 8; // 数据包长度
@@ -118,6 +119,7 @@ public:
     void shrink(){}
 
     ssize_t readFd(int fd, int *savedErron);  // 外部主要靠这个去把文件缓冲区的内容读进来
+    ssize_t writeFd(int fd, int *savedErron);  // 这个是把自己的可读写到fd中
 private:
     char *begin(){
         return &*_buffer.begin();

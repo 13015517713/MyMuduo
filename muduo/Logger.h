@@ -2,11 +2,15 @@
 
 #include "NonCopyAble.h"
 #include "TimeStamp.h"
+#include <string.h>
 #include <stdio.h>
 #include <string>
 #include <iostream>
 
 #define LOG_MAX_LEN 1024
+
+
+const char *strerrorOur(int savedErrno);
 
 // 等下把这些
 #define LogDEBUG(logFormat, ...) \

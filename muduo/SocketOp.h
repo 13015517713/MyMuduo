@@ -9,4 +9,5 @@ namespace SocketOp{
     int createNonblockingOrDie(sa_family_t family);
     void closeOrDie(int sockfd);
     ssize_t readv(int fd, const iovec* iov, int cnt);
+    int getSocketError(int fd);
 }

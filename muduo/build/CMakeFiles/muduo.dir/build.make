@@ -282,6 +282,190 @@ CMakeFiles/muduo.dir/CurrentThread.cpp.o.provides: CMakeFiles/muduo.dir/CurrentT
 
 CMakeFiles/muduo.dir/CurrentThread.cpp.o.provides.build: CMakeFiles/muduo.dir/CurrentThread.cpp.o
 
+CMakeFiles/muduo.dir/EventLoopThread.cpp.o: CMakeFiles/muduo.dir/flags.make
+CMakeFiles/muduo.dir/EventLoopThread.cpp.o: ../EventLoopThread.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/wcx/gitProject/MyMuduo/muduo/build/CMakeFiles $(CMAKE_PROGRESS_11)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/muduo.dir/EventLoopThread.cpp.o"
+	/opt/rh/devtoolset-6/root/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/muduo.dir/EventLoopThread.cpp.o -c /home/wcx/gitProject/MyMuduo/muduo/EventLoopThread.cpp
+
+CMakeFiles/muduo.dir/EventLoopThread.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/muduo.dir/EventLoopThread.cpp.i"
+	/opt/rh/devtoolset-6/root/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/wcx/gitProject/MyMuduo/muduo/EventLoopThread.cpp > CMakeFiles/muduo.dir/EventLoopThread.cpp.i
+
+CMakeFiles/muduo.dir/EventLoopThread.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/muduo.dir/EventLoopThread.cpp.s"
+	/opt/rh/devtoolset-6/root/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/wcx/gitProject/MyMuduo/muduo/EventLoopThread.cpp -o CMakeFiles/muduo.dir/EventLoopThread.cpp.s
+
+CMakeFiles/muduo.dir/EventLoopThread.cpp.o.requires:
+.PHONY : CMakeFiles/muduo.dir/EventLoopThread.cpp.o.requires
+
+CMakeFiles/muduo.dir/EventLoopThread.cpp.o.provides: CMakeFiles/muduo.dir/EventLoopThread.cpp.o.requires
+	$(MAKE) -f CMakeFiles/muduo.dir/build.make CMakeFiles/muduo.dir/EventLoopThread.cpp.o.provides.build
+.PHONY : CMakeFiles/muduo.dir/EventLoopThread.cpp.o.provides
+
+CMakeFiles/muduo.dir/EventLoopThread.cpp.o.provides.build: CMakeFiles/muduo.dir/EventLoopThread.cpp.o
+
+CMakeFiles/muduo.dir/Thread.cpp.o: CMakeFiles/muduo.dir/flags.make
+CMakeFiles/muduo.dir/Thread.cpp.o: ../Thread.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/wcx/gitProject/MyMuduo/muduo/build/CMakeFiles $(CMAKE_PROGRESS_12)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/muduo.dir/Thread.cpp.o"
+	/opt/rh/devtoolset-6/root/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/muduo.dir/Thread.cpp.o -c /home/wcx/gitProject/MyMuduo/muduo/Thread.cpp
+
+CMakeFiles/muduo.dir/Thread.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/muduo.dir/Thread.cpp.i"
+	/opt/rh/devtoolset-6/root/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/wcx/gitProject/MyMuduo/muduo/Thread.cpp > CMakeFiles/muduo.dir/Thread.cpp.i
+
+CMakeFiles/muduo.dir/Thread.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/muduo.dir/Thread.cpp.s"
+	/opt/rh/devtoolset-6/root/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/wcx/gitProject/MyMuduo/muduo/Thread.cpp -o CMakeFiles/muduo.dir/Thread.cpp.s
+
+CMakeFiles/muduo.dir/Thread.cpp.o.requires:
+.PHONY : CMakeFiles/muduo.dir/Thread.cpp.o.requires
+
+CMakeFiles/muduo.dir/Thread.cpp.o.provides: CMakeFiles/muduo.dir/Thread.cpp.o.requires
+	$(MAKE) -f CMakeFiles/muduo.dir/build.make CMakeFiles/muduo.dir/Thread.cpp.o.provides.build
+.PHONY : CMakeFiles/muduo.dir/Thread.cpp.o.provides
+
+CMakeFiles/muduo.dir/Thread.cpp.o.provides.build: CMakeFiles/muduo.dir/Thread.cpp.o
+
+CMakeFiles/muduo.dir/EventLoopThreadPool.cpp.o: CMakeFiles/muduo.dir/flags.make
+CMakeFiles/muduo.dir/EventLoopThreadPool.cpp.o: ../EventLoopThreadPool.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/wcx/gitProject/MyMuduo/muduo/build/CMakeFiles $(CMAKE_PROGRESS_13)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/muduo.dir/EventLoopThreadPool.cpp.o"
+	/opt/rh/devtoolset-6/root/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/muduo.dir/EventLoopThreadPool.cpp.o -c /home/wcx/gitProject/MyMuduo/muduo/EventLoopThreadPool.cpp
+
+CMakeFiles/muduo.dir/EventLoopThreadPool.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/muduo.dir/EventLoopThreadPool.cpp.i"
+	/opt/rh/devtoolset-6/root/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/wcx/gitProject/MyMuduo/muduo/EventLoopThreadPool.cpp > CMakeFiles/muduo.dir/EventLoopThreadPool.cpp.i
+
+CMakeFiles/muduo.dir/EventLoopThreadPool.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/muduo.dir/EventLoopThreadPool.cpp.s"
+	/opt/rh/devtoolset-6/root/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/wcx/gitProject/MyMuduo/muduo/EventLoopThreadPool.cpp -o CMakeFiles/muduo.dir/EventLoopThreadPool.cpp.s
+
+CMakeFiles/muduo.dir/EventLoopThreadPool.cpp.o.requires:
+.PHONY : CMakeFiles/muduo.dir/EventLoopThreadPool.cpp.o.requires
+
+CMakeFiles/muduo.dir/EventLoopThreadPool.cpp.o.provides: CMakeFiles/muduo.dir/EventLoopThreadPool.cpp.o.requires
+	$(MAKE) -f CMakeFiles/muduo.dir/build.make CMakeFiles/muduo.dir/EventLoopThreadPool.cpp.o.provides.build
+.PHONY : CMakeFiles/muduo.dir/EventLoopThreadPool.cpp.o.provides
+
+CMakeFiles/muduo.dir/EventLoopThreadPool.cpp.o.provides.build: CMakeFiles/muduo.dir/EventLoopThreadPool.cpp.o
+
+CMakeFiles/muduo.dir/Socket.cpp.o: CMakeFiles/muduo.dir/flags.make
+CMakeFiles/muduo.dir/Socket.cpp.o: ../Socket.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/wcx/gitProject/MyMuduo/muduo/build/CMakeFiles $(CMAKE_PROGRESS_14)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/muduo.dir/Socket.cpp.o"
+	/opt/rh/devtoolset-6/root/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/muduo.dir/Socket.cpp.o -c /home/wcx/gitProject/MyMuduo/muduo/Socket.cpp
+
+CMakeFiles/muduo.dir/Socket.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/muduo.dir/Socket.cpp.i"
+	/opt/rh/devtoolset-6/root/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/wcx/gitProject/MyMuduo/muduo/Socket.cpp > CMakeFiles/muduo.dir/Socket.cpp.i
+
+CMakeFiles/muduo.dir/Socket.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/muduo.dir/Socket.cpp.s"
+	/opt/rh/devtoolset-6/root/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/wcx/gitProject/MyMuduo/muduo/Socket.cpp -o CMakeFiles/muduo.dir/Socket.cpp.s
+
+CMakeFiles/muduo.dir/Socket.cpp.o.requires:
+.PHONY : CMakeFiles/muduo.dir/Socket.cpp.o.requires
+
+CMakeFiles/muduo.dir/Socket.cpp.o.provides: CMakeFiles/muduo.dir/Socket.cpp.o.requires
+	$(MAKE) -f CMakeFiles/muduo.dir/build.make CMakeFiles/muduo.dir/Socket.cpp.o.provides.build
+.PHONY : CMakeFiles/muduo.dir/Socket.cpp.o.provides
+
+CMakeFiles/muduo.dir/Socket.cpp.o.provides.build: CMakeFiles/muduo.dir/Socket.cpp.o
+
+CMakeFiles/muduo.dir/SocketOp.cpp.o: CMakeFiles/muduo.dir/flags.make
+CMakeFiles/muduo.dir/SocketOp.cpp.o: ../SocketOp.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/wcx/gitProject/MyMuduo/muduo/build/CMakeFiles $(CMAKE_PROGRESS_15)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/muduo.dir/SocketOp.cpp.o"
+	/opt/rh/devtoolset-6/root/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/muduo.dir/SocketOp.cpp.o -c /home/wcx/gitProject/MyMuduo/muduo/SocketOp.cpp
+
+CMakeFiles/muduo.dir/SocketOp.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/muduo.dir/SocketOp.cpp.i"
+	/opt/rh/devtoolset-6/root/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/wcx/gitProject/MyMuduo/muduo/SocketOp.cpp > CMakeFiles/muduo.dir/SocketOp.cpp.i
+
+CMakeFiles/muduo.dir/SocketOp.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/muduo.dir/SocketOp.cpp.s"
+	/opt/rh/devtoolset-6/root/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/wcx/gitProject/MyMuduo/muduo/SocketOp.cpp -o CMakeFiles/muduo.dir/SocketOp.cpp.s
+
+CMakeFiles/muduo.dir/SocketOp.cpp.o.requires:
+.PHONY : CMakeFiles/muduo.dir/SocketOp.cpp.o.requires
+
+CMakeFiles/muduo.dir/SocketOp.cpp.o.provides: CMakeFiles/muduo.dir/SocketOp.cpp.o.requires
+	$(MAKE) -f CMakeFiles/muduo.dir/build.make CMakeFiles/muduo.dir/SocketOp.cpp.o.provides.build
+.PHONY : CMakeFiles/muduo.dir/SocketOp.cpp.o.provides
+
+CMakeFiles/muduo.dir/SocketOp.cpp.o.provides.build: CMakeFiles/muduo.dir/SocketOp.cpp.o
+
+CMakeFiles/muduo.dir/Acceptor.cpp.o: CMakeFiles/muduo.dir/flags.make
+CMakeFiles/muduo.dir/Acceptor.cpp.o: ../Acceptor.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/wcx/gitProject/MyMuduo/muduo/build/CMakeFiles $(CMAKE_PROGRESS_16)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/muduo.dir/Acceptor.cpp.o"
+	/opt/rh/devtoolset-6/root/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/muduo.dir/Acceptor.cpp.o -c /home/wcx/gitProject/MyMuduo/muduo/Acceptor.cpp
+
+CMakeFiles/muduo.dir/Acceptor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/muduo.dir/Acceptor.cpp.i"
+	/opt/rh/devtoolset-6/root/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/wcx/gitProject/MyMuduo/muduo/Acceptor.cpp > CMakeFiles/muduo.dir/Acceptor.cpp.i
+
+CMakeFiles/muduo.dir/Acceptor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/muduo.dir/Acceptor.cpp.s"
+	/opt/rh/devtoolset-6/root/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/wcx/gitProject/MyMuduo/muduo/Acceptor.cpp -o CMakeFiles/muduo.dir/Acceptor.cpp.s
+
+CMakeFiles/muduo.dir/Acceptor.cpp.o.requires:
+.PHONY : CMakeFiles/muduo.dir/Acceptor.cpp.o.requires
+
+CMakeFiles/muduo.dir/Acceptor.cpp.o.provides: CMakeFiles/muduo.dir/Acceptor.cpp.o.requires
+	$(MAKE) -f CMakeFiles/muduo.dir/build.make CMakeFiles/muduo.dir/Acceptor.cpp.o.provides.build
+.PHONY : CMakeFiles/muduo.dir/Acceptor.cpp.o.provides
+
+CMakeFiles/muduo.dir/Acceptor.cpp.o.provides.build: CMakeFiles/muduo.dir/Acceptor.cpp.o
+
+CMakeFiles/muduo.dir/TcpConnection.cpp.o: CMakeFiles/muduo.dir/flags.make
+CMakeFiles/muduo.dir/TcpConnection.cpp.o: ../TcpConnection.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/wcx/gitProject/MyMuduo/muduo/build/CMakeFiles $(CMAKE_PROGRESS_17)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/muduo.dir/TcpConnection.cpp.o"
+	/opt/rh/devtoolset-6/root/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/muduo.dir/TcpConnection.cpp.o -c /home/wcx/gitProject/MyMuduo/muduo/TcpConnection.cpp
+
+CMakeFiles/muduo.dir/TcpConnection.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/muduo.dir/TcpConnection.cpp.i"
+	/opt/rh/devtoolset-6/root/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/wcx/gitProject/MyMuduo/muduo/TcpConnection.cpp > CMakeFiles/muduo.dir/TcpConnection.cpp.i
+
+CMakeFiles/muduo.dir/TcpConnection.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/muduo.dir/TcpConnection.cpp.s"
+	/opt/rh/devtoolset-6/root/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/wcx/gitProject/MyMuduo/muduo/TcpConnection.cpp -o CMakeFiles/muduo.dir/TcpConnection.cpp.s
+
+CMakeFiles/muduo.dir/TcpConnection.cpp.o.requires:
+.PHONY : CMakeFiles/muduo.dir/TcpConnection.cpp.o.requires
+
+CMakeFiles/muduo.dir/TcpConnection.cpp.o.provides: CMakeFiles/muduo.dir/TcpConnection.cpp.o.requires
+	$(MAKE) -f CMakeFiles/muduo.dir/build.make CMakeFiles/muduo.dir/TcpConnection.cpp.o.provides.build
+.PHONY : CMakeFiles/muduo.dir/TcpConnection.cpp.o.provides
+
+CMakeFiles/muduo.dir/TcpConnection.cpp.o.provides.build: CMakeFiles/muduo.dir/TcpConnection.cpp.o
+
+CMakeFiles/muduo.dir/Buffer.cpp.o: CMakeFiles/muduo.dir/flags.make
+CMakeFiles/muduo.dir/Buffer.cpp.o: ../Buffer.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/wcx/gitProject/MyMuduo/muduo/build/CMakeFiles $(CMAKE_PROGRESS_18)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/muduo.dir/Buffer.cpp.o"
+	/opt/rh/devtoolset-6/root/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/muduo.dir/Buffer.cpp.o -c /home/wcx/gitProject/MyMuduo/muduo/Buffer.cpp
+
+CMakeFiles/muduo.dir/Buffer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/muduo.dir/Buffer.cpp.i"
+	/opt/rh/devtoolset-6/root/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/wcx/gitProject/MyMuduo/muduo/Buffer.cpp > CMakeFiles/muduo.dir/Buffer.cpp.i
+
+CMakeFiles/muduo.dir/Buffer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/muduo.dir/Buffer.cpp.s"
+	/opt/rh/devtoolset-6/root/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/wcx/gitProject/MyMuduo/muduo/Buffer.cpp -o CMakeFiles/muduo.dir/Buffer.cpp.s
+
+CMakeFiles/muduo.dir/Buffer.cpp.o.requires:
+.PHONY : CMakeFiles/muduo.dir/Buffer.cpp.o.requires
+
+CMakeFiles/muduo.dir/Buffer.cpp.o.provides: CMakeFiles/muduo.dir/Buffer.cpp.o.requires
+	$(MAKE) -f CMakeFiles/muduo.dir/build.make CMakeFiles/muduo.dir/Buffer.cpp.o.provides.build
+.PHONY : CMakeFiles/muduo.dir/Buffer.cpp.o.provides
+
+CMakeFiles/muduo.dir/Buffer.cpp.o.provides.build: CMakeFiles/muduo.dir/Buffer.cpp.o
+
 # Object files for target muduo
 muduo_OBJECTS = \
 "CMakeFiles/muduo.dir/Logger.cpp.o" \
@@ -293,7 +477,15 @@ muduo_OBJECTS = \
 "CMakeFiles/muduo.dir/Poller.cpp.o" \
 "CMakeFiles/muduo.dir/DefaultPoll.cpp.o" \
 "CMakeFiles/muduo.dir/EpollPoller.cpp.o" \
-"CMakeFiles/muduo.dir/CurrentThread.cpp.o"
+"CMakeFiles/muduo.dir/CurrentThread.cpp.o" \
+"CMakeFiles/muduo.dir/EventLoopThread.cpp.o" \
+"CMakeFiles/muduo.dir/Thread.cpp.o" \
+"CMakeFiles/muduo.dir/EventLoopThreadPool.cpp.o" \
+"CMakeFiles/muduo.dir/Socket.cpp.o" \
+"CMakeFiles/muduo.dir/SocketOp.cpp.o" \
+"CMakeFiles/muduo.dir/Acceptor.cpp.o" \
+"CMakeFiles/muduo.dir/TcpConnection.cpp.o" \
+"CMakeFiles/muduo.dir/Buffer.cpp.o"
 
 # External object files for target muduo
 muduo_EXTERNAL_OBJECTS =
@@ -308,6 +500,14 @@ muduo_EXTERNAL_OBJECTS =
 ../lib/libmuduo.so: CMakeFiles/muduo.dir/DefaultPoll.cpp.o
 ../lib/libmuduo.so: CMakeFiles/muduo.dir/EpollPoller.cpp.o
 ../lib/libmuduo.so: CMakeFiles/muduo.dir/CurrentThread.cpp.o
+../lib/libmuduo.so: CMakeFiles/muduo.dir/EventLoopThread.cpp.o
+../lib/libmuduo.so: CMakeFiles/muduo.dir/Thread.cpp.o
+../lib/libmuduo.so: CMakeFiles/muduo.dir/EventLoopThreadPool.cpp.o
+../lib/libmuduo.so: CMakeFiles/muduo.dir/Socket.cpp.o
+../lib/libmuduo.so: CMakeFiles/muduo.dir/SocketOp.cpp.o
+../lib/libmuduo.so: CMakeFiles/muduo.dir/Acceptor.cpp.o
+../lib/libmuduo.so: CMakeFiles/muduo.dir/TcpConnection.cpp.o
+../lib/libmuduo.so: CMakeFiles/muduo.dir/Buffer.cpp.o
 ../lib/libmuduo.so: CMakeFiles/muduo.dir/build.make
 ../lib/libmuduo.so: CMakeFiles/muduo.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX shared library ../lib/libmuduo.so"
@@ -327,6 +527,14 @@ CMakeFiles/muduo.dir/requires: CMakeFiles/muduo.dir/Poller.cpp.o.requires
 CMakeFiles/muduo.dir/requires: CMakeFiles/muduo.dir/DefaultPoll.cpp.o.requires
 CMakeFiles/muduo.dir/requires: CMakeFiles/muduo.dir/EpollPoller.cpp.o.requires
 CMakeFiles/muduo.dir/requires: CMakeFiles/muduo.dir/CurrentThread.cpp.o.requires
+CMakeFiles/muduo.dir/requires: CMakeFiles/muduo.dir/EventLoopThread.cpp.o.requires
+CMakeFiles/muduo.dir/requires: CMakeFiles/muduo.dir/Thread.cpp.o.requires
+CMakeFiles/muduo.dir/requires: CMakeFiles/muduo.dir/EventLoopThreadPool.cpp.o.requires
+CMakeFiles/muduo.dir/requires: CMakeFiles/muduo.dir/Socket.cpp.o.requires
+CMakeFiles/muduo.dir/requires: CMakeFiles/muduo.dir/SocketOp.cpp.o.requires
+CMakeFiles/muduo.dir/requires: CMakeFiles/muduo.dir/Acceptor.cpp.o.requires
+CMakeFiles/muduo.dir/requires: CMakeFiles/muduo.dir/TcpConnection.cpp.o.requires
+CMakeFiles/muduo.dir/requires: CMakeFiles/muduo.dir/Buffer.cpp.o.requires
 .PHONY : CMakeFiles/muduo.dir/requires
 
 CMakeFiles/muduo.dir/clean:

@@ -5,11 +5,15 @@
 
 using namespace std;
 
+__thread char t_errnobuf[512];
+
 void Logger::setLevel(LogLevel level){
     _level = level;
 }
 
-
+const char *strerrorOur(int savedErrno){
+    return strerror_r(savedErrno, t_errnobuf, sizeof t_errnobuf);
+}
 
 void Logger::log(string file, int line, string msg){
     printf("%s %s:%d",TimeStamp::now().toString(), file, line);

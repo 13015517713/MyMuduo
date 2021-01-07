@@ -22,3 +22,14 @@ void SocketOp::closeOrDie(int sockfd){
 ssize_t SocketOp::readv(int fd, const iovec* iov, int cnt){
     return ::readv(fd, iov, cnt);
 }
+
+int SocketOp::getSocketError(int fd){
+    int err;
+    socklen_t len = static_cast<socklen_t>(sizeof err);
+    if (::getsockopt(fd, SOL_SOCKET, SO_ERROR, &err, &len) < 0){
+        return errno;
+    }
+    else{
+        return err;
+    }
+}

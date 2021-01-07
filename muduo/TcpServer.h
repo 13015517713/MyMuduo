@@ -5,6 +5,7 @@
 #include "InetAddress.h"
 #include "Acceptor.h"
 #include "TcpConnection.h"
+#include "Callback.h"
 #include <memory.h>
 #include <atomic>
 #include <map>
@@ -19,18 +20,7 @@ class EventLoop;
 class Buffer;
 class EventLoopThreadPool;
 
-namespace{
-    using TcpConnectionPtr = std::shared_ptr<TcpConnection>;
-    using ConnCallback = std::function<void (const TcpConnectionPtr &)>; // 新连接
-    using CloseConnCallback = std::function<void (const TcpConnectionPtr &)>; // 连接关闭回调
-    // 我完全不理解写回调的含义   打个log倒是可以
-    using WriteCallback = std::function<void (const TcpConnectionPtr&)> ;   
-    using ThreadInitCallback = std::function<void (EventLoop*)>;
-    // using WriteCallback = std::function<void (const TcpConnectionPtr&)>;
-    using MsgCallback = std::function<void (const TcpConnectionPtr&,
-                                Buffer*,
-                                TimeStamp)>;
-}
+
 
 
 class TcpServer : noncopyable{

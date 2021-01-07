@@ -8,17 +8,12 @@
 #include <thread>
 #include <iostream>
 #include <unistd.h>
+// #include "test.h"
 using namespace std;
 sem_t t;
-void run(){
-    sleep(10);
-    sem_wait(&t);
-    cout << 1 << endl;
-}
-int main(){
-    sem_init(&t, 0 , 0);
-    thread _thread(run);
-    sem_post(&t);
-    cout << "has post" << endl;
-    _thread.join();
+ int c = 2;
+// extern int c;
+static void run2(){
+    // cout << c << endl;
+    // c = 2;
 }
